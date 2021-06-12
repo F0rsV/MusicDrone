@@ -44,7 +44,7 @@ export class NavMenu extends Component {
     if(fullNameRequest.status === 200)
     {
       this.setState({
-        fullName: fullNameRequest.data["firstName"] + " " + fullNameRequest.data["lastName"]
+        fullName: `${fullNameRequest.data["firstName"]} ${fullNameRequest.data["lastName"]}`
       });
     }
     
