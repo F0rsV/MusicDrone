@@ -5,13 +5,13 @@ using System.Net.Mime;
 using System.Threading;
 using System.Threading.Tasks;
 using Identity.API.Data;
+using Identity.API.Models;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
-using MySensors.Web.ViewModels;
 
 namespace Identity.API
 {

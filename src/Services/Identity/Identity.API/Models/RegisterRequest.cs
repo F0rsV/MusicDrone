@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace MySensors.Web.ViewModels
+namespace Identity.API.Models
 {
     public class RegisterRequest
     {

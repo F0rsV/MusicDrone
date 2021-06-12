@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity;
 
-namespace MySensors.Web.ViewModels
+namespace Identity.API.Models
 {
     public class ApplicationUser : IdentityUser
     {

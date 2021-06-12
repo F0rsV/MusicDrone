@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Identity.API.Constants;
 using Identity.API.Data;
 using Identity.API.Interfaces;
+using Identity.API.Models;
 using Identity.API.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
@@ -21,7 +22,6 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
-using MySensors.Web.ViewModels;
 
 namespace Identity.API
 {

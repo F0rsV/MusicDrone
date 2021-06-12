@@ -6,10 +6,10 @@ using System.Security.Claims;
 using System.Threading.Tasks;
 using Identity.API.Constants;
 using Identity.API.Interfaces;
+using Identity.API.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
-using MySensors.Web.ViewModels;
 
 namespace Identity.API.Controllers
 {

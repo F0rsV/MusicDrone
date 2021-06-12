@@ -6,9 +6,9 @@ using System.Text;
 using System.Threading.Tasks;
 using Identity.API.Constants;
 using Identity.API.Interfaces;
+using Identity.API.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.IdentityModel.Tokens;
-using MySensors.Web.ViewModels;
 
 namespace Identity.API.Services
 {

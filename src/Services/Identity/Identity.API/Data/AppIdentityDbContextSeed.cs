@@ -1,8 +1,8 @@
 ﻿using System.Linq;
 using System.Threading.Tasks;
 using Identity.API.Constants;
+using Identity.API.Models;
 using Microsoft.AspNetCore.Identity;
-using MySensors.Web.ViewModels;
 
 namespace Identity.API.Data
 {
