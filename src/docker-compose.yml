@@ -39,8 +39,9 @@ services:
       - "80"
 
   envoygateway:
-    image: envoyproxy/envoy-dev:0ab3cfe82a7fed78316929e7225fe17f6791707f
+    image: musicdrone/gateway:latest
+    build:
+      context: .
+      dockerfile: ApiGateways/Envoy/Dockerfile
     ports:
-      - "80:80"
-    volumes:
-      - ./ApiGateways/Envoy/envoy.yaml:/etc/envoy/envoy.yaml
+      - "80:8080"
